@@ -1,0 +1,17 @@
+﻿# Assignment 13 - Sara7a App (Week 4 - Final)
+1. **Message Module**: Send anonymous messages, get my inbox, and delete messages.
+2. **CORS Configuration**: Enabled cross-origin resource sharing.
+3. **Rate Limiting**: Configured express-rate-limit on signin endpoint (max 3 requests per minute).
+
+## Run
+1. \
+pm install\
+2. \
+pm start\
+3. Import \Assignment13.postman_collection.json\
+"@ | Out-File -FilePath "D:\Assignments\assignment-13\README.md" -Encoding utf8
+
+# .gitignore
+@"
+node_modules/
+.env
